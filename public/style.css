@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: #888;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    padding:8px;
+    margin: 0 0 10px 10px;
+    outline:none;
+    border-radius: 10px;
+    border:none;
+    width: 200px;
+}
+
+button{
+    padding:10px;
+    border-radius: 10px;
+    background-color:blue;
+    border: none;
+    color: #fff;
+}
+
+.header , label{
+    color: #fff;
+}
+
